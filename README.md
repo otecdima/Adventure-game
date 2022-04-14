@@ -16,3 +16,6 @@ The second part contains such commands:
 - talk – converstion with the enemy, the one gives the phrase to start converstion, however in one side :(
 - fight - fight with the enemy
 - take - takes the item
+
+## Lab 4.6
+
