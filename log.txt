@@ -1,0 +1,136 @@
+Kitchen
+--------------------
+A dank and dirty room buzzing with flies.
+The Dining Hall is south
+> talk
+
+
+Kitchen
+--------------------
+A dank and dirty room buzzing with flies.
+The Dining Hall is south
+> fight
+There is no one here to fight with
+
+
+Kitchen
+--------------------
+A dank and dirty room buzzing with flies.
+The Dining Hall is south
+> take
+There's nothing here to take!
+
+
+Kitchen
+--------------------
+A dank and dirty room buzzing with flies.
+The Dining Hall is south
+> south
+
+
+Dining Hall
+--------------------
+A large room with ornate golden decorations on each wall.
+The Ballroom is west
+The Kitchen is north
+Dave is here!
+A smelly zombie
+The [book] is here - A really good book entitled 'Knitting for dummies'
+> talk
+[Dave says]: What's up, dude! I'm hungry.
+
+
+Dining Hall
+--------------------
+A large room with ornate golden decorations on each wall.
+The Ballroom is west
+The Kitchen is north
+Dave is here!
+A smelly zombie
+The [book] is here - A really good book entitled 'Knitting for dummies'
+> take
+You put the book in your backpack
+
+
+Dining Hall
+--------------------
+A large room with ornate golden decorations on each wall.
+The Ballroom is west
+The Kitchen is north
+Dave is here!
+A smelly zombie
+> north
+
+
+Kitchen
+--------------------
+A dank and dirty room buzzing with flies.
+The Dining Hall is south
+> south
+
+
+Dining Hall
+--------------------
+A large room with ornate golden decorations on each wall.
+The Ballroom is west
+The Kitchen is north
+Dave is here!
+A smelly zombie
+> west
+
+
+Ballroom
+--------------------
+A vast room with a shiny wooden floor. Huge candlesticks guard the entrance.
+The Dining Hall is east
+Tabitha is here!
+An enormous spider with countless eyes and furry legs.
+The [cheese] is here - A large and smelly block of cheese
+> talk
+[Tabitha says]: Sssss....I'm so bored...
+
+
+Ballroom
+--------------------
+A vast room with a shiny wooden floor. Huge candlesticks guard the entrance.
+The Dining Hall is east
+Tabitha is here!
+An enormous spider with countless eyes and furry legs.
+The [cheese] is here - A large and smelly block of cheese
+> take
+You put the cheese in your backpack
+
+
+Ballroom
+--------------------
+A vast room with a shiny wooden floor. Huge candlesticks guard the entrance.
+The Dining Hall is east
+Tabitha is here!
+An enormous spider with countless eyes and furry legs.
+> fight
+What will you fight with?
+book
+You fend Tabitha off with the book
+Hooray, you won the fight!
+
+
+Ballroom
+--------------------
+A vast room with a shiny wooden floor. Huge candlesticks guard the entrance.
+The Dining Hall is east
+> east
+
+
+Dining Hall
+--------------------
+A large room with ornate golden decorations on each wall.
+The Ballroom is west
+The Kitchen is north
+Dave is here!
+A smelly zombie
+> fight
+What will you fight with?
+book
+Dave crushes you, puny adventurer!
+Oh dear, you lost the fight.
+That's the end of the game
