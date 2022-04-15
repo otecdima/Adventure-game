@@ -52,4 +52,4 @@ Choose the command:
 >
 ```
 
-Here is the start of the game. The part after Lera's phrase is the main cycle of the game, which have 5 commands to run. Their description is above.
+Here is the start of the game. The part after Lera's phrase is the main cycle of the game, which have 5 commands to execute. Their description is above. The information below the name of teh city contain other directions to go, name and description of the charcter is there is any and the name and the description of the item if there is any.
