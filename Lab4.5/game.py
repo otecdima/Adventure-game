@@ -49,33 +49,45 @@ class Room:
             if room[1] == direct_to_go:
                 return room[0]
 
-class Enemy:
-    """Class Enemy"""
-    win_rate = 0
-
-    def __init__(self, enemy_name, enemy_description):
+class Character:
+    """Class Character"""
+    def __init__(self, name, description):
         """init"""
-        self.enemy_name = enemy_name
-        self.enemy_description = enemy_description
+        self.name = name
+        self.description = description
         self.phrase_conversation = ""
-        self.weakness = ""
-        self.wins = 0
 
     def set_conversation(self, phrase_conversation):
         """Function to set conversation"""
         self.phrase_conversation = phrase_conversation
 
+    def describe(self):
+        """Function that describes character"""
+        print(f"{self.name} is here!")
+        print(self.description)
+
+    def talk(self):
+        """Function to talk"""
+        print(f"[{self.name} says]: {self.phrase_conversation}")
+
+class Enemy(Character):
+    """Class Enemy"""
+    win_rate = 0
+
+    def __init__(self, enemy_name, enemy_description):
+        """init"""
+        super().__init__(enemy_name, enemy_description)
+        self.phrase_conversation = ""
+        self.weakness = ""
+        self.wins = 0
+
     def set_weakness(self, weakness):
         """Function to set weakness"""
         self.weakness = weakness
 
-    def describe(self):
-        """Function that describes enemy"""
-        print(f"{self.enemy_name} is here!")
-        print(self.enemy_description)
-
     def fight(self, item):
-        """Function that check the weakness and if win add the point to win rate"""
+        """Function that check the weakness and if
+        win add the point to win rate"""
         if self.weakness == item:
             Enemy.win_rate += 1
             return True
@@ -86,9 +98,9 @@ class Enemy:
         """Function returns win rate"""
         return Enemy.win_rate
 
-    def talk(self):
-        """Function to talk with the enemy"""
-        print(f"[{self.enemy_name} says]: {self.phrase_conversation}")
+class Friend(Character):
+    """Class Character"""
+    pass
 
 class Item:
     """Class Item"""
